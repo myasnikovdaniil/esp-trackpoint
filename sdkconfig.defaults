@@ -1,0 +1,6 @@
+CONFIG_FREERTOS_HZ=1000
+
+# This board uses a CH343 USB-UART bridge (USB id 1a86:55d3) on UART0 — NOT the
+# C6 native USB-Serial-JTAG. Console MUST go to UART0, else printf vanishes into
+# the unconnected USB-JTAG peripheral (GPIO12/13).
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y

@@ -1,0 +1,7 @@
+[project]
+name = "esp-trackpoint"
+version = "0.1.0"
+description = "ESP32-C6 TrackPoint (PTPM754 PS/2) proof of concept"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
